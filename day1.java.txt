@@ -1,0 +1,10 @@
+/* Day1
+  
+ System.out.print("I am Abinaya");
+ System.out.println("My age is 17");
+ System.out.println("03-06-2007");
+ System.out.println("phone no: 9876543210");
+ System.out.println("I am living in Chennai");
+ System.put.println("abc123@gmail.com");
+ System.out.println("St.joseph's Institute of technology");
+*/
