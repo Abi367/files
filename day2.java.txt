@@ -1,0 +1,20 @@
+/* Day2
+   class day2
+   {
+    public static void main(String args[])
+    {
+     int a=56;
+     long b=67000L;
+     String c="Java";
+     char d='j';
+     float e=7.68f;
+     double f=78.089;
+     boolean javaisfun=true;
+     System.out.printf("a=%d\n",a);
+      System.out.printf("b=%d\n",b);
+      System.out.printfln("c=%s\n",c);
+      System.out.printf("d=%c\n",d);
+       System.out.printf("e=%f\n",e);
+       System.out.printf("f=%f\n",f);
+      System.out.print(javaisfun);
+*/
