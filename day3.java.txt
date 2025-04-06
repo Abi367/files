@@ -1,0 +1,198 @@
+/* Day3
+  
+1. Add two numbers:-
+
+class add
+{
+ public static void main(String args[])
+ {
+  int a=8;
+  int b=7;
+  int result = a+b;
+  System.out.print(result);
+ }
+}
+
+
+2. Maximum of 2 numbers
+
+import java.util.Scanner;
+class Maximum
+{
+ public static void main(string args[])
+ { 
+  Scanner scan= new Scanner(System.in);
+  System.out.println("Enter num1:");
+  int num1=scan.nextInt();
+  System.out.println("Enter num2:");
+  int num2=scan.nextInt();
+  if(num1>num2)
+  {
+   System.out.println("num1 is greater");
+  }
+  else
+  {
+   System.out.println("num2 is greater");
+   }
+  }
+}
+
+
+3.Swapping of two numbers
+
+
+import java.util.Scanner;
+class swap
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter Num1:");
+  int Num1=scan.nextInt();
+  System.out.println("Enter Num2:");
+  int Num2=scan.nextInt();
+  int temp=Num1;
+  Num1=Num2;
+  Num2=temp;
+  System.out.println("Number 1:"+Num1);
+  System.out.println("Number 2:"+Num2);
+  scan.close();
+ }
+}
+
+
+4.Even or odd
+
+import java.util.Scanner;
+class Number
+{
+  public static void main(String args[])
+ { 
+  Scanner scan=new Scanner(System.in);
+   System.out.println("Enter the number:");
+   int num=scan.nextInt();
+   if(num%2==0)
+   {
+    System.out.println("Even number"+num);
+   }
+   else
+   {
+    System.out.println("Odd number"+num);
+   }
+   scan.close();
+  }
+}
+
+
+5.Simple interest Calculator
+
+import java.util.Scanner;
+class Calculator
+{
+ public static void main(String args[])
+ {
+  Scanner scan=new Scanner(System.in);
+  System.out.println("Enter pricipal value:");
+  float p=scan.nextFloat();
+  System.out.println("Enter Rate:");
+  float r=scan.nextFloat();
+  System.out.println("Enter Time:);
+  float t=scan.nextFloat();
+  float interest = (p*r*t)/100;
+  System.out.println(interest);
+  scan.close();
+ }
+}
+
+
+
+6.Area of circle
+
+import java.util.Scanner;
+class Area
+{
+ public static void main(String args[])
+ {
+  Scanner scan= new Scanner(System.in);
+  System.out.println("Enter radius:");
+  double radius =scan.nextDouble();
+  double area = Math.PI*radius*radius;
+  System.out.println(area);
+  scan.close();
+ }
+}
+
+
+7.Area and perimeter of rectangle
+
+import java.util.Scanner;
+class Rectangle
+{
+ public static void main(String args[])
+ {
+  Scanner scan=new Scanner(System.in);
+  System.out.println("Enter length:");
+  int length=scan.nextInt();
+  System.out.println("Enter breadth:");
+  int breadth=scan.nextInt();
+  int area=length * breadth;
+  int perimeter=2*(length + breadth);
+  System.out.println(area);
+  System.out.println(perimeter);
+  scan.close();
+ }
+}
+
+
+8.Increment and decrement
+
+import java.util,Scanner;
+class Number
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter Value of x:");
+  int x=scan.nextInt();
+  y=++x;
+  z=--x;
+  System.out.println(y);
+  System.out.println(z);
+  scan.close();
+ }
+}
+
+
+9.Celsius to Fahrenheit
+
+import java.util.Scanner;
+class Temperature
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter temperature in Celsius:");
+  double c =scan.nextDouble();
+  double F = (c*9/5)+32;
+  System.out.println("Fahrenheit: "+F);
+  scan.close();
+ }
+}
+
+
+
+10.ASCII Value
+
+import java.util.Scanner
+class Ascii value
+{
+ public static void main(STring args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter a character");
+  char ch = scan.next().charAt(0);
+  int ascii = (int) ch;
+  System.out.println("ASCII value of'" + ch + "' = "+ ascii);
+  scan.close();
+ }
+}
