@@ -1,0 +1,136 @@
+/* Day 6
+
+  IF CONDITIONAL STATEMENT:-
+
+1.Number is positive or negative
+
+import java.util.Scanner;
+class Number
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  int num = scan.nextInt();
+  if(num>0)
+  {
+   System.out.println("Number is positive");
+  }
+  else
+  {
+   System.out.println("Number is negative");
+  }
+ }
+}
+
+
+
+
+2. Number is Even or Odd
+
+import java.util.Scanner;
+class Number
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in); 
+  int num = scan.nextInt();
+  if(num%2==0)
+  {
+  System.out.println("Even");
+  }
+  else
+  {
+  System.out.println("Odd");
+  }
+ }
+}
+
+
+
+3.Greater of two numbers
+
+import java.util.Scanner;
+class Greater
+{
+ public static void main(String args[])
+  {
+   Scanner scan = new Scanner(System.in);
+   int a = scan.nextInt();
+   int b = scan.nextInt(); 
+   if(a>b)
+   {
+    System.out.println("a is greater");
+   }
+   else
+  {
+   System.out.println("b is greater");
+  }
+ }
+}   
+
+
+
+
+4.Grade assignment
+
+import java.util.Scanner;
+class Grade
+{
+ public static void main(String args[])
+ {
+  Scanner scan = new Scanner(System.in);
+  int grade = scan.nextInt();
+  if (grade>=90)
+  {
+   System.out.println("Grade A");
+  }
+  else if(grade>=80 && grade<=89)
+ {
+   System.out.println("Grade B");
+  }
+  else if(grade>=70 && grade<=79)
+  {
+    System.out.println("Grade C");
+  }
+  else if(grade>=60 && grade<=69)
+  {
+    System.out.println("Grade D");
+  }
+  else
+  {
+   System.out.println("Grade F");
+   }
+  }
+}
+
+
+
+5. Leap year or not
+
+import java.util.Scanner;
+class Leap
+{
+  public static void main(String args[])
+  {
+    Scanner scan = new Scanner(System.in);
+    int year = scan.next.Int();
+    if(year%4==0)
+    {
+     if(year%100  && year%400)
+      {
+        System.out.println("Leap year");
+      }
+     else
+     {
+      System.out.println("Not a Leap year");
+      }
+    }
+    else
+    {
+     System.out.println("Not a Leap year");
+    }
+   }
+}
+   
+*/
+
