@@ -1,0 +1,56 @@
+/* day 7
+  
+LOOPS CONCEPT(Easy level)
+
+1. NUMBERS FROM 1 TO 100
+
+import java.util.Scanner;
+public class Num
+{
+ public static void main(String[] args)
+ {
+  for(int i=1; i<=100; i++)
+  {
+   System.out.println(i);
+  }
+ }
+}
+
+
+2. ODD NUMBERS FROM 1 TO 50
+
+import java.util.Scanner;
+public class Odd
+{
+ public static void main(String[] args)
+ {
+   for(int i=1; i<=50; i++)
+   {
+    if(i%2!=0)
+    {
+     System.out.println(i);
+     }
+   }
+  }
+}
+
+
+3.FACTORIAL OF A NUMBER
+
+import java.util.Scanner;
+public class Fact
+{
+ public static void main(String[] args)
+ {
+  Scanner scan = new Scanner(System.in);
+  int n = scan.nextInt();
+  int factorial= 1;
+  for(int i=1; i<=n; i++)
+  {
+   factorial*=i;
+  System.out.println(factorial);
+  }
+ }
+}
+
+*/
