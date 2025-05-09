@@ -1,0 +1,21 @@
+
+/*
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.newInt();
+        for(int rows =1; rows<=n; rows++)
+        {
+            for(int cols=1; cols<=n; cols++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        scan.close();
+    }
+}
+
+*/
